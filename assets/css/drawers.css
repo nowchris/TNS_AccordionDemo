@@ -40,8 +40,8 @@
     transition: all 0.18s ease-in-out;
 }
 @media screen and (min-width: 61.25em) {
-    .m-drawers__toggle.m-drawers__toggle:after,
-    .m-drawers__toggle.m-drawers__toggle:before {
+    .m-drawers__toggle:after,
+    .m-drawers__toggle:before {
         right: 36px;
         width: 3px;
         height: 16px;
@@ -50,7 +50,7 @@
 }
 
 
-.m-drawers__toggle.m-drawers__toggle span {
+.m-drawers__toggle span {
     border-bottom: 1px solid transparent;
     display: flex;
     position: relative;
@@ -64,14 +64,14 @@
 }
 
 @media screen and (min-width: 63em) {
-    .m-drawers__toggle.m-drawers__toggle span {
+   .m-drawers__toggle span {
         width: 80%;
         font-size: 23px;
     }
 }
 
 @media screen and (min-width: 70em) {
-    .m-drawers__toggle.m-drawers__toggle span {
+    .m-drawers__toggle span {
         width: 70%;
         font-size: 23px;
     }
